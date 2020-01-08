@@ -1,0 +1,7 @@
+lane :test do
+  devices = device_explorer
+
+  devices.each do |d|
+    p d
+  end
+end
